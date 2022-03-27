@@ -1,6 +1,11 @@
 // Клас - потяг
 class Train {
 
+    no;
+    source;
+    destination;
+    capacity;
+
     constructor (no, source, destination, capacity) {
     
         this.no = no;
